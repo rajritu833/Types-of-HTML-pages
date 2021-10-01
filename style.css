@@ -1,0 +1,15 @@
+form{
+    color: #000;
+}
+
+input.signup{
+    padding-left: 70px;
+    padding-right: 70px; 
+    background-color: #0f2d36;
+    color: #fff;
+    width: 100%;
+}
+
+input.signup:hover{
+    background-color: #143842;
+}
