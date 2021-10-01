@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>try</title>
+</head>
+<body>
+	<p contenteditable="">Text</p>
+	<style>
+		{
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+
+		}
+		html,body
+		{
+			height: 100vh;
+			background-color: #666666;
+
+
+		}
+		body{
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+		}
+		p{
+			font-size: 300px;
+			font-weight: 1000;
+			text-transform: uppercase;
+			color: #ffffff;
+			outline: 0;
+
+		}
+	</style>
+		<script type="text/javascript">
+			left text=document.querySelector('p');
+			left shadow='';
+			for (left i = 0; i < 5000; i++) {
+				shadow+=(shadow ? ',':'')+i+'px'+i+'px 0 #272727';
+			}
+			text.style.textShadow = shadow;
+		</script>
+
+</body>
+</html>
