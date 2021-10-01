@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Style the header */
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #bc2d1a;
+  color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 14px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(138, 222, 135);
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  flex: 30%;
+  background-color: hsl(71, 79%, 48%);
+  padding: 20px;
+}
+
+/* Main column */
+.main {   
+  flex: 70%;
+  background-color: white;
+  padding: 20px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+.container{
+    background-color: yellowgreen;
+}
+
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Netaji Subhash Engineering College</h1>
+  <p1>Mauza Ranabhutia, Techno City, Garia, West Bengal 700152
+    Phone: 098318 17307</p1>
+</div>
+<div class="navbar">
+    <a href="#">HOME</a>
+    <a href="#">ABOUT US</a>
+    <a href="#">ACADEMICS</a>
+    <a href="#">FACILITIES</a>
+    <a href="#">CONTACT US</a>
+    <a href="#" class="right">Apply For Admission(2021-22)</a>
+</div>
+<div class="container"> 
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <!-- Indicators -->
+      <ol class="carousel-indicators">
+        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#myCarousel" data-slide-to="1"></li>
+        <li data-target="#myCarousel" data-slide-to="2"></li>
+      </ol>
+  
+      <!-- Wrapper for slides -->
+      <div class="carousel-inner">
+        <div class="item active">
+          <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.6435-9/65720861_856553871387529_4920080338320883712_n.jpg?_nc_cat=109&ccb=1-5&_nc_sid=e3f864&_nc_ohc=6dd-S1m_C60AX82xch2&_nc_ht=scontent.fpat2-2.fna&oh=f2a041890098f8760325f55364210984&oe=616D5157" alt="Los Angeles" style="width: 500%;;">
+        </div>
+  
+        <div class="item">
+          <img src="https://scontent.fpat2-1.fna.fbcdn.net/v/t1.6435-9/65123473_856553361387580_3091345583659548672_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=e3f864&_nc_ohc=x6Bq5STQ4YsAX-FxoxQ&_nc_ht=scontent.fpat2-1.fna&oh=c7cc43839e34cbdde1eb0c49dc31dbeb&oe=61700E1C" alt="Chicago" style="width:500%;">
+        </div>
+      
+        <div class="item">
+          <img src="https://scontent.fpat2-2.fna.fbcdn.net/v/t1.6435-9/62822369_850343738675209_8498319653926338560_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=730e14&_nc_ohc=mkGE6pi0tJ8AX-6QyBd&_nc_ht=scontent.fpat2-2.fna&oh=199263cb53328e5d1074360ee0519e01&oe=616D93DD" alt="New york" style="width:500%;">
+        </div>
+      </div>
+  
+      <!-- Left and right controls -->
+      <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#myCarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </div>
+
+<div class="row">
+  <div class="side">
+    <h2>About NSEC</h2>
+    <p1>The Netaji Subhash Engineering College (NSEC) has been set up, keeping in mind the ideals of Netaji Subhash Chandra Bose, whose contribution to the Indian Freedom Movement remains invaluable forever. Netaji had dreamt of vibrant, strong and powerful India, an India which would be independent and self reliant, not only politically, but also in the spheres of Education & Technology. He strongly believed that true independence can only stem from strong base in education and technology.</p1>
+    <h5>FACILITIES:</h5>
+    <img src="https://www.nsec.ac.in/images/library_faci.jpg" style="height: 160px;"></br>
+    <p2>The Central Library, NSEC Garia started its journey in a small room of the Institute Old Building in the year 2000 ( February), next in the Annex Building and then finally moved to its present premises in 2004. Since then, it has grown in size and content to take the present shape. With the developments in computers, microelectronics and communication technologies, the behavioral characteristics of the information seekers have been changing rapidly and the library is trying its best to adapt with the technological advancement. For the last five decades, the library has been the lifeline of the academic activities of the Institute.</p2></br>
+    <br>
+    <img src="https://www.nsec.ac.in/images/ee_basic_lab.jpg" style="height: 160px;"></br>
+    <p3>Electrical Engineering Lab</p3></br>
+    <br>
+    <Img src="https://www.nsec.ac.in/images/ieee-e-site.jpg" style="height: 150px;"></br>
+    <p3>Online e-Resources for Students & Teachers</p3></br>
+    <br>
+    <img src="https://www.nsec.ac.in/images/i-State-of-the-art-Language%20Laboratory.jpg" style="height: 150px;"></br>
+    <h4>Infrastructure</h4>
+    <p4>The institute has state-of-the-art infrastructure to meet the quality education for students belonging to all strata of the society. The buildings of the college are built with 14521 Sq.M with good ambience provide an ideal environment for learning and to make our students ready to face the challenges of the global professional world. Excellent infrastructure and allied facilities to foster research, product development and promote industrial consultancy remains a key component for being part of the dynamic technical world. The two language laboratories aim at developing professional skill in English. The laboratories are equipped with multimedia facilities that motivate the students to learn by providing an interactive learning environment. There are adequate number of class rooms for each department along with e-class rooms and seminar halls. Departmental laboratories are well equipped with modern equipments to comply the curricula and beyond. A common seminar hall with all public address facility is established for a capacity of 200 seating. A conference/board room with ICT facility is established to hold board meetings. The college posses more than thousand computers and equipped with 50Mbps/LAN, Wi-Fi facility.</p4></br>
+    <h3>Campus Virtual Tour</h3>
+    <a href="https://www.nsec.ac.in/vtour/">Click here for caampus virtual tour</a></br>
+    <br>
+    <h9> Placement 2020-21</h9>
+    <p>AEIE: 27</br>
+      BME: 18</br>
+      CE: 25</br>
+      CSE: 100</br>
+      EE: 52</br>
+      ECE: 107</br>
+      IT: 49</br>
+      ME: 29</br>
+      Other: 11</p></br>
+  </div>
+  <div class="main">
+    <h2>Departments</h2>
+    <br>
+    <h5 style="font-size: 0.4in;">Computer Science & Engineering</h5>
+    <img src="https://www.nsec.ac.in/images/cse_front-1.jpg" style="height: 300px;"></br>
+    <p>In today's Industrial Environment, the disciplines of Computer Science & Engineering and Information Technology have come to the forefront for providing tools and techniques to the rest of industry - Heavy Engineering, Science Sector, Finance Sector, Entertainment Sector and all other basic Industries. Especially after the advent of Internet the requirement for the design of newer and newer Computer applications has increased million fold, as even the small traders and businessmen have become globally connected and e-commerce has become the new business model.
+
+      In order to provide manpower for such a scenario, and inconformity with the mission of Netaji Subhash Engineering College has been to develop quality technical manpower through the departments of Computer Science & Engineering. The no of students that we admit for B. Tech. degree in Computer Science & Engineering-180.</p></br>
+    <br>
+    <h6 style="font-size: 0.4in;">Electrical Engineering</h6>
+    <img src="https://www.nsec.ac.in/images/ee_front_new.jpg" style="height: 300px;"></br>
+    <p>The Department of Electrical Engineering, Netaji Subhash Engineering College, has a 20 years proven track record of imparting quality outcome based education in the field of Electrical Engineering. Department has a perfect blend of renowned experienced as well as young dynamic personalities as faculty. Courses offered by the department include BTech in Electrical Engineering (intake 12), MTech in Control & Instrumentation (intake 18) and MTech in Power System (intake 36). Department curriculum is well backed up by a rich infrastructure, modern state-of-the-art Laboratories, research facilities and well equipped departmental library with vast e-resources. The students while pursuing their regular studies also undergo different Value addition and Career development programs which facilitate their employability in Core/Software industries, R & D Centers and in securing admission to premier institutions for higher studies.</p></br>
+    <br>
+    <h7 style="font-size: 0.4in;">Electronics & Communication Engineering</h7></br>
+    <img src="https://www.nsec.ac.in/images/ece_dept_photo.jpg" style="height: 500px;"></br>
+    <p>The department of ECE started its journey during the inception of the institute in 1998 with an intake of sixty (60) 1st year B.Tech. students. Since its establishment, the primary objective of the department has been to impart quality education, training and research in various functional areas of electronics and communication engineering. In the academic year 2001-2002, the 1st year B.Tech. intake of the department was increased from 60 to 90. Later, in the year 2005-2006, it was further increased to 120. In 2005-2006, the department also started its post graduate (M.Tech.) programme in Communication Engineering. The department is counted as one of the nationally renowned places for being accredited by NBA thrice and completing the TEQIP Phase-I successfully.</p></br>
+    <br>
+   
+  </div>
+</div>
+
+</body>
+</html>
