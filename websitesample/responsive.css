@@ -1,0 +1,38 @@
+@media screen and (max-width : 700px){
+
+body { font-size:12px; }
+blockquote {font-size:13px; padding:1px 5px; margin:0; border-left:2px solid #f06; }
+
+/* banner */
+/*#banner { height:170px;}*/
+#banner h1 {font-size:28px;}
+#banner p {width:60%;}
+
+/* menu */
+ul#topnav {display:none;}
+.responsive { display:block;}
+#show-menu:checked ~ ul#topnav {display: block; position: absolute; top:100%; width:50%; margin:0 0 0 -8%; overflow:visible;}
+ul#topnav li { display: block; text-align:left; margin:0 0 1px 15%;}
+ul#topnav li a { padding-left:20px; border-radius: 0px; -moz-border-radius: 0px; -webkit-border-radius: 0px; font-size:10px;}
+ul#topnav li a:hover { background: rgba(255,0,85,1); color:rgba(255,255,255,255);}
+ul#topnav li a.active, ul#topnav li a.active:hover {    background: rgba(230,230,230,230);  color: rgba(1,1,1,1);}
+
+
+/* sidebar */
+#sidebar { width: 28%; padding:5px; font-size:10px; line-height:1.25em; }
+#sidebar h2 { font-size:12px; }
+
+/* content */
+#content { margin-right: 38%;}
+#content h1 { font-size:14px; font-weight:bold;}
+#content .item span { font-size:10px;}
+#content ul {margin-left:0; padding-left:0;}
+#content ul li {margin-left:0; padding-left:0;}
+
+
+/* footer */
+#footer { font-size:10px; text-align: center; padding-bottom:20px;}
+#footer span {display:none;}
+#footer p.show-footer {display: block; }
+#credits { font-size:80%; text-align:center;}
+}
