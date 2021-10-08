@@ -1,0 +1,55 @@
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  p{
+    padding: 1px;
+    background-color: rgb(204, 69, 69)
+  }
+  h2 {
+    padding: 5px;
+    background-color: rgb(187, 255, 0);
+    color: rgb(0, 0, 0);
+  }
+  p{
+    background-color: white;
+    padding: 2px;
+    color: black;
+  }
+  
+   a:link , a:visited
+      {
+        color:black;
+        padding: 5px 15px;
+        border: 5;
+        text-align : centre;
+        display: inline-block;
+      }
+      a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+      a:active {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  
+  #header{
+  background-color: #0dc4f1;
+    color: white; 
+    text-align: center;
+    padding: 30px;
+  }
+  
+  #footer{
+    padding: 10px;
+    background-color: #999999;
+    color: white;
+    text-align: right;
+  }
+  
