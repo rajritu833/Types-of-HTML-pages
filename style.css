@@ -1,5 +1,7 @@
 form{
     color: #000;
+    background-color: black;
+    box-sizing: border-box;
 }
 
 input.signup{
