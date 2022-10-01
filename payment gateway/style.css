@@ -1,0 +1,179 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #title {
+    background-image: -webkit-linear-gradient(0deg, #0b3861, #0a283f 100%);
+  }
+  
+  .top-h1 {
+    font-size: 3.5rem;
+    color: rgb(224, 206, 206);
+    line-height: 1.5;
+    font-weight: bold;
+    margin-top: 5rem;
+  }
+  
+  .title-donation-image {
+    width: 27em;
+    height: 25rem;
+    margin-top: 2.5%;
+    margin-left: 10%;
+    position: relative;
+    padding: 1rem;
+  }
+  
+  #Donate {
+    background-color: #fff;
+  }
+  
+  /* Source: https://storyset.com */
+  
+  .donation-gif {
+    margin: 1% 0 5% 35%;
+  }
+  .donate-para {
+    padding: 10%;
+    font-family: "Roboto", sans-serif;
+    }
+  
+  #second-para {
+    padding-top: 0;
+  }
+  
+  .donate-button {
+    margin-top: 2rem;
+    margin-left: 1rem;
+  }
+  
+  .donate-btn-link {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .donate-btn-link:hover {
+    color: #cccccc;
+  }
+  
+  #carousel-list {
+    background-image: -webkit-linear-gradient(0deg, #0b3861, #0a283f 100%);
+    text-align: center;
+    height: 25rem;
+    font-weight: bold;
+    color: rgb(20, 19, 19);
+  }
+  
+  .carousel-item {
+    color: #fff;
+  }
+  
+  .carousel-both {
+    margin-top: 1rem;
+  }
+  
+  .carousel-image {
+    margin-right: 1rem;
+    height: 15.5rem;
+  }
+  
+  h2 {
+    padding: 1rem 1.5rem;
+    margin: 1rem;
+  }
+  
+  .navbar-brand {
+    margin-left: 2rem;
+    font-weight: bold;
+  }
+  
+  #About {
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-left: 0.75rem;
+  }
+  
+  .Rahul-img {
+    width: 50%;
+    height: 80%;
+    margin-left: 18rem;
+  }
+  
+  .about-para {
+    line-height: 2;
+    margin-top: 1rem;
+  }
+  
+  .email-location-link {
+    text-decoration: none;
+    color: #777777;
+    line-height: 3.5rem;
+  }
+  .email-location-link:hover {
+    color: rgb(87, 87, 145);
+  }
+  
+  .h3-footer {
+    width: 100%;
+    font-size: 3rem;
+  }
+  
+  #footer {
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #000;
+  }
+  
+  .footer-icon {
+    margin: 2rem 1rem;
+    transition: all 350ms linear 0s;
+  }
+  
+  .footer-icon:hover {
+    color: #6610f2;
+  }
+  
+  .a-footer {
+    color: #cccccc;
+  }
+  
+  .pay_button {
+    width: 300px;
+    height: 50px;
+    padding-left: 55px;
+  }
+  
+  @media (max-width: 1028px) {
+    .title-donation-image {
+      position: static;
+      transform: rotate(0);
+      width: 60%;
+      height: 80%;
+      margin-top: 3rem;
+      margin-bottom: 1rem;
+    }
+    #title {
+      text-align: center;
+    }
+    #About {
+      text-align: center;
+    }
+  
+    .Rahul-img {
+      margin: 0;
+    }
+    .carousel-image {
+      margin-top: 2rem;
+      height: 10.5rem;
+    }
+  
+    .donation-gif {
+      width: 15rem;
+      margin-left: 6.25rem;
+    }
+    .pay_button {
+      width:14rem;
+      padding-left: 2.5rem;
+      margin-right: 0;
+    }
+  }
