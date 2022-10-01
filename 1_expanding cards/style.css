@@ -1,0 +1,64 @@
+@import url('https://fonts.google.com/specimen/Source+Code+Pro');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('https://i1.wp.com/studentwork.prattsi.org/infovis/wp-content/uploads/sites/3/2019/07/dc7tvw7-16e58146-6993-462e-9886-ed716b1e030b.png?fit=1200%2C675&ssl=1');
+    font-family: 'Source+Code+Pro', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.con {
+    display: flex;
+    width: 90vw;
+}
+
+.panel {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    border-radius: 50px;
+    color: azure;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 35px;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 5;
+    transition: flex 0.7 ease-in;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.5s ease-in 0.4s;
+}
+
+@media(max-width:480px) {
+    .con {
+        width: 100vw;
+    }
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5),
+    .panel:nth-of-type(6) {
+        display: none;
+    }
+}
